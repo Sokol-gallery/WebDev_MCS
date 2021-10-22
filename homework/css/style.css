@@ -1,0 +1,75 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.home {
+	font-family: 'Roboto', sans-serif;
+	width: 1440px;
+	margin: auto;
+}
+.home__header {
+	background: #E5E000;
+	font-family: 'Roboto', sans-serif;
+	padding: 80px;
+}
+.home__head {
+	font-size: 50px;
+	line-height: 40px;
+	font-weight: 600;
+	color: #ffffff;
+}
+.home__cover {
+	height: 1080px;
+	background-image: url(../img/cover.jpeg);
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.home__discription {
+	height: 100px;
+	background-color: #E5E000;
+}
+
+.home__paragraph {
+	padding: 35px 0px 35px 80px;
+	font-size: 25px;
+	line-height: 29px;
+	text-transform: uppercase;
+	text-align: left;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.about__content {
+	padding: 110px 80px 60px 80px ;
+	background-color: lightblue;	
+}
+
+.about__head {
+	font-size: 50px;
+	line-height: 57px;
+	width: 1280px;
+	padding-bottom: 24px;
+	font-weight: 600;
+}
+.about p {
+	font-size: 50px;
+	line-height: 57px;
+	font-weight: 300;
+	padding-bottom: 44px;
+	width: 1280px;
+}
+.home__footer {
+	background-color: #E5E000;
+	padding: 70px 80px 66px 80px;
+	display: flex;
+    justify-content: space-between;
+}
+
+.footerText {
+	font-size: 50px;
+	line-height: 64px;
+	font-weight: 700;
+	color: #ffffff;
+	text-align: right;
+}
